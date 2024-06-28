@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffebab;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255, 242, 167);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(ladybug3.avif);
+  border-style: dotted;
+  border-color: #ffc4e0;
+}
+.button {
+  background-color: #04AA6D;
+  background-image: url(hd-daisy-wallpaper-whatspaper-13.jpg);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointe;
+  border-style: double;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ffebab;
+  padding: 20px;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background: #ffebab;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffebab;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<header>
+    <h2>Pictures</h2>
+    
+  </header>
+<body>
+
+
+
+    <section>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Pictures</a></li>
+            <p><a href="https://scratch.mit.edu/projects/1041693032/">Enviromental Game!</a></p>
+          </ul>
+          
+      <a href="#" class="button">Link Button</a>
+      <button class="button">Button</button>
+      <input type="button" class="button" value="Input Button">
+
+      <a target="_blank" href="dutchwindmill.jpg">
+        <img src="dutchwindmill.jpg" alt="Cinque Terre">
+      </a>
+
+      <a target="_blank" href="trees.jpeg">
+        <img src="trees.jpeg" alt="Cinque Terre" width="700" height="700">
+      </a>
+        
+   
+      <a target="_blank" href="Belovezhskaya-Forest-Poland.webp">
+        <img src="Belovezhskaya-Forest-Poland.webp" alt="Cinque Terre">
+      </a>
+
+      <a target="_blank" href="clean-energy-vs-green-energy.png">
+        <img src="clean-energy-vs-green-energy.png" alt="Cinque Terre">
+      </a>
+       
+        
+          
+        </article>
+      </section>
+      
+    
+</body>
+</html>
